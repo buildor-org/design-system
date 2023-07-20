@@ -38,5 +38,9 @@
     "storybook": "^7.1.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
+  },
+    "engines" : { 
+    "npm" : "=9.6.7",
+    "node" : "=v18.17.0"
   }
 }
