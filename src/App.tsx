@@ -18,9 +18,11 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <div className="count-btn">
+          <button onClick={() => setCount((count) => count + 1)}>+</button>
+          <h2 className="my-2">count is {count}</h2>
+          <button onClick={() => setCount(count - 1)}>-</button>
+        </div>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
