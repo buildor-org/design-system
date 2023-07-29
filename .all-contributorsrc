@@ -1,0 +1,24 @@
+{
+  "projectName": "react-ui",
+  "projectOwner": "buildor-org",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "cnikhil469",
+      "name": "Nikhil Chakravarthy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59420126?v=4",
+      "profile": "https://nikhil980.github.io/cnc/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
