@@ -4,7 +4,7 @@
   },
   "name": "@buildor-org/react-ui",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React component library",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
