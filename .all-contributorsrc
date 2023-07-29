@@ -6,7 +6,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 10,
+  "imageSize": 50,
   "commit": true,
   "commitConvention": "eslint",
   "contributors": [
@@ -16,7 +16,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/59420126?v=4",
       "profile": "https://nikhil980.github.io/cnc/",
       "contributions": [
-        "code"
+        "code",
+        "doc",
+        "example",
+        "infra"
       ]
     },
     {
