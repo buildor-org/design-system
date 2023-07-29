@@ -29,18 +29,22 @@
     }
   },
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "README.md"
   ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "release": "npm run build && auto shipit",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+    "prepare": "husky install",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "prepare": "husky install"
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^11.0.0",
+    "@auto-it/conventional-commits": "^11.0.0",
     "@storybook/addon-essentials": "^7.1.0",
     "@storybook/addon-interactions": "^7.1.0",
     "@storybook/addon-links": "^7.1.0",
@@ -56,6 +60,7 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
+    "auto": "^11.0.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.45.0",
     "eslint-config-prettier": "^8.8.0",
@@ -87,5 +92,15 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": "buildor-org/react-ui",
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "released"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }

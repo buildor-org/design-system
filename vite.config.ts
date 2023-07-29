@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'test-lib-124',
+      name: '@buildor-org/react-ui',
       fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
