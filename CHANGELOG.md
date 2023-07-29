@@ -1,3 +1,15 @@
+# v0.0.7 (Sat Jul 29 2023)
+
+#### 🐛 Bug Fix
+
+- Update .autorc [#15](https://github.com/buildor-org/react-ui/pull/15) ([@Satishpokala124](https://github.com/Satishpokala124))
+
+#### Authors: 1
+
+- Satish Pokala ([@Satishpokala124](https://github.com/Satishpokala124))
+
+---
+
 # v0.0.6 (Sat Jul 29 2023)
 
 #### 🐛 Bug Fix
