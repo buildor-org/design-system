@@ -41,7 +41,7 @@
     "prepare": "husky install",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "vitest",
+    "test": "vitest --config ./vitest.config.ts",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
@@ -56,6 +56,7 @@
     "@storybook/react": "^7.1.0",
     "@storybook/react-vite": "^7.1.0",
     "@storybook/testing-library": "^0.2.0",
+    "@testing-library/react": "^14.0.0",
     "@types/babel__core": "^7.20.1",
     "@types/jest": "^29.5.3",
     "@types/react": "^18.2.15",
@@ -72,6 +73,7 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-storybook": "^0.6.13",
     "husky": "^8.0.3",
+    "jsdom": "^22.1.0",
     "lint-staged": "^13.2.3",
     "postcss": "^8.4.27",
     "prettier": "3.0.0",
