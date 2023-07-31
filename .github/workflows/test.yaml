@@ -1,0 +1,26 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Test
+
+on: [push, workflow_dispatch]
+
+# Allow one concurrent deployment
+concurrency:
+  group: 'test'
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Run Integration Tests
+    runs-on: Ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
+      - name: Run Tests
+        run: npm run test
