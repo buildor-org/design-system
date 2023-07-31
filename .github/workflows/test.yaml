@@ -3,11 +3,6 @@ name: Test
 
 on: push
 
-# Allow one concurrent deployment
-concurrency:
-  group: 'test'
-  cancel-in-progress: true
-
 jobs:
   test:
     name: Run Integration Tests
