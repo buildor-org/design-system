@@ -3,5 +3,9 @@ interface LabelProps {
 }
 
 export const Label = ({ text }: LabelProps) => {
-  return <p className="p-2 bg-green-400 text-black">{text}</p>;
+  return (
+    <p className="px-4 py-2 rounded-full  border bg-transparent text-white">
+      {text}
+    </p>
+  );
 };

@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 import dts from 'vite-plugin-dts';
@@ -33,5 +33,4 @@ export default defineConfig({
     minify: 'terser',
   },
   plugins: [react(), dts()],
-  test: {},
 });
