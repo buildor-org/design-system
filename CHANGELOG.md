@@ -1,3 +1,26 @@
+# v0.0.8 (Wed Aug 02 2023)
+
+#### 🐛 Bug Fix
+
+- Dev [#31](https://github.com/buildor-org/react-ui/pull/31) ([@Satishpokala124](https://github.com/Satishpokala124) [@cnikhil469](https://github.com/cnikhil469))
+- Label test [#30](https://github.com/buildor-org/react-ui/pull/30) ([@Satishpokala124](https://github.com/Satishpokala124))
+- Dev [#28](https://github.com/buildor-org/react-ui/pull/28) ([@Satishpokala124](https://github.com/Satishpokala124) [@cnikhil469](https://github.com/cnikhil469))
+- Button test [#26](https://github.com/buildor-org/react-ui/pull/26) ([@Satishpokala124](https://github.com/Satishpokala124))
+- 🔧 Configure vitest [#25](https://github.com/buildor-org/react-ui/pull/25) ([@cnikhil469](https://github.com/cnikhil469) [@Satishpokala124](https://github.com/Satishpokala124))
+- Vitest conf [#23](https://github.com/buildor-org/react-ui/pull/23) ([@cnikhil469](https://github.com/cnikhil469))
+- Dev [#22](https://github.com/buildor-org/react-ui/pull/22) ([@Satishpokala124](https://github.com/Satishpokala124) [@cnikhil469](https://github.com/cnikhil469))
+- Chromatic setup [#21](https://github.com/buildor-org/react-ui/pull/21) ([@cnikhil469](https://github.com/cnikhil469) [@Satishpokala124](https://github.com/Satishpokala124))
+- Dev [#18](https://github.com/buildor-org/react-ui/pull/18) ([@Satishpokala124](https://github.com/Satishpokala124) [@cnikhil469](https://github.com/cnikhil469))
+- Configure auto [#17](https://github.com/buildor-org/react-ui/pull/17) ([@Satishpokala124](https://github.com/Satishpokala124))
+- 🔧 Update README.md [#16](https://github.com/buildor-org/react-ui/pull/16) ([@Satishpokala124](https://github.com/Satishpokala124))
+
+#### Authors: 2
+
+- Nikhil Chakravarthy ([@cnikhil469](https://github.com/cnikhil469))
+- Satish Pokala ([@Satishpokala124](https://github.com/Satishpokala124))
+
+---
+
 # v0.0.7 (Sat Jul 29 2023)
 
 #### 🐛 Bug Fix
