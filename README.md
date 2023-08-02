@@ -2,9 +2,29 @@
 
 # React UI
 
+<div style="display:inline-block;">
+
+![Deploy](https://github.com/buildor-org/design-system/actions/workflows/deploy_storybook.yaml/badge.svg)
+
+</div>
+
+<div style="display:inline-block;">
+
+![Release](https://github.com/buildor-org/design-system/actions/workflows/release.yaml/badge.svg)
+
+</div>
+
+<div style="display:inline-block;">
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+</div>
+
+</div>
 
 A comprehensive design system repository serving as a reusable foundation for all forthcoming projects within the organization, streamlining and unifying UI/UX elements and components.
 
